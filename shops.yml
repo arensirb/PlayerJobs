@@ -1,0 +1,14 @@
+shops:
+    Blacksmith: # name of shop
+        jobs: 
+          job1:
+            description: Create 10 iron helmets.
+            basepay: 35
+            itemtype: 306
+            numitems: 10
+          job2:
+            description: Create 15 iron pants.
+            basepay: 25
+            itemtype: 308
+            numitems: 15
+            

@@ -1,0 +1,16 @@
+name: PlayerJobs
+main: net.nordicgaming.PlayerJobs.PlayerJobs
+version: 0.1
+author: Andreas Brisner
+depend: [WorldGuard]
+commands:
+  job:
+    description: Shows job info
+    usage: /job 
+    permission: playerjobs.job
+    permission-message: You don't have access to this command!
+  js:
+    description: Admin commands
+    usage: /js
+    permission: playerjobs.admin
+    permission-message: You don't have access to this command!
